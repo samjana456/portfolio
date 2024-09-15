@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    padding: 0 10%;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Poppins" sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1%;
+}
+
+/* bavbar starts */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 75px;
+    align-items: center;
+}
+.logo img{
+    height: 35px;
+    
+}
+.navlinks{
+    width: 30%;
+}
+.navlinks ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+.hire button{
+    /* background-color: blue; */
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(51, 43, 43);
+    color: white;
+    background-color: black;
+
+
+
+}
+.hire button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    
+   margin-bottom: 2rem;
+    
+
+}
+.boxx img{
+    height: 400px;
+     width: 300px;
+    
+    padding: 2rem 2rem;;
+    
+}
+.boxx{
+  background-color:#121214;
+  border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, .05);
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    
+}
+
+.boxx h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.boxx p{
+    
+    text-wrap: wrap;
+    padding: 1rem;
+    color: #9f9f9f;
+    font-size: 1.5rem;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center; */
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    
+    
+}
+.links ul li{
+    height: 2rem;
+    width: 2.5rem;
+    border: 1px solid rgb(61, 58, 58);
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+.links ul li a{
+   
+  color: rgb(150, 142, 142)
+}
+.links ul li a:hover{
+    color: red;
+}
+
+
+
+   
+
+/* box2 starts here */
+.box2{
+    background-color:#121214;
+  border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, .05);
+    
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+.box2 p{
+color: #9f9f9f;
+padding: 2rem;
+font-size: 1rem;
+}
+.box2 h1{
+    padding-left: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.circle{
+    padding-left: 2rem;
+    color: #9f9f9f;
+    margin-bottom: 2rem;
+}
+.circle i{
+   background-color: rgb(14, 250, 14);
+   color:  rgb(14, 250, 14);
+   border-radius: 150px;
+   
+   
+}
+.cv{
+    padding: 2rem;
+}
+.cv button{
+    border-radius: 7px;
+    height: 3rem;
+    width: 7.5rem;
+    background-color: hsl(17, 79%, 47%);
+    border-color: hsl(17, 79%, 47%);
+    color: white;
+    font-size: 1rem;
+
+
+}
+
+.cv button:hover{
+
+    background-color: #121214;
+    cursor: pointer;
+    border-color:#9f9f9f;
+    transition: 1s;
+}
+
+/* box2.1 starts here */
+.box21{
+    background-color:#121214;
+  border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, .05);
+    
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+
+/* works project starts here */
+
+.works{
+    padding: 2rem;
+
+    background-color: #121214;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+    
+}
+.info{
+    text-align: center;
+    padding-left: 25% ;
+    margin: 1.5rem 0;
+    width: 40rem;
+}
+.info h1{
+    font-size: 50px;
+}
+.info p{
+    color: #9f9f9f;
+}
+.maincard{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    
+
+}
+.projectcat ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 2rem;
+    color: gray;
+    margin-bottom: 2rem;
+    padding-left: 10rem;
+
+}
+.firstt{
+    height: 2px;
+    width: 20px;
+    border: 5px solid #121214;
+    
+}
+li a{
+    color: #9f9f9f;
+}
+
+
+.first:hover{
+ 
+    cursor: pointer;
+    background: red;
+    
+
+
+}
+
+
+
+.smcard span{
+    color: gray;
+    
+}
+.smcard{
+    height: 100%;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+
+}
+.smproject img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    background-color: #121214;
+    text-align: center;
+    padding: 6rem;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about h2{
+    font-size: 2rem;
+}
+.abinfo{
+    width: 70%;
+    /* background-color: purple; */
+}
+
+.abinfo button{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(51, 43, 43);
+    color: white;
+    background-color: #eb5d3a;
+}
+.about p{
+    color: #9f9f9f;
+    margin: 2rem 0;
+}
+.abinfo button:hover{
+    background-color: #121214;
+    cursor: pointer;
+}
