@@ -1,3 +1,153 @@
 .box img{
     height: fit-content;
+    padding-top: 19%;
 }
+.clients{
+    background-color:#121214;
+    border-radius: 17px;
+      border: 1px solid rgba(0, 0, 0, .05);
+      color: #9f9f9f;
+      padding: 1rem;
+      margin: 2rem;
+      padding-left:4% ;
+      padding-right: 4%;
+   
+      
+}
+.client{
+    
+      text-align: center;
+      padding: 2%;
+}
+.one{
+   border: 1px solid rgb(120, 120, 124);
+   border-radius: 10px;
+   padding: 2%;
+}
+.one p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.clients h2{
+    color: aliceblue;
+}
+.clients h1{
+    font-size: 45px;
+    color: aliceblue;
+}
+.ones{
+    display: flex;
+    gap: 3%;
+    
+}
+.one:hover{
+    transition-duration: 1s;
+    border-color: hsl(17, 79%, 47%);
+}
+.move{
+    display: flex;
+    justify-content: center;
+    gap: 0.5%;
+    margin-top: 2%;
+   
+}
+img{
+    border-radius: 100%;
+}
+button{
+    border-radius: 100%;
+    padding: 1%;
+    background-color:  hsl(17, 79%, 47%);
+   
+}
+.move button i{
+    color: white;
+}
+button:hover{
+    background-color: black;
+    border-color: hsl(17, 79%, 47%);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/* .skill{
+    background-color:#121214;
+    border-radius: 17px;
+      border: 1px solid rgba(0, 0, 0, .05);
+      color: #9f9f9f;
+      padding: 1rem;
+      margin: 2rem;
+      padding-left:4% ;
+      padding-right: 4%; 
+      font-size: 21px;
+     display: flex;
+} */
+.education{
+    background-color:#121214;
+    border-radius: 17px;
+      border: 1px solid rgba(0, 0, 0, .05);
+      color: #9f9f9f;
+      padding: 1rem;
+      margin: 2rem;
+      padding-left:4% ;
+      padding-right: 4%; 
+      font-size: 21px;
+      width: 50%;
+      
+    
+}
+.experience{
+    background-color:#121214;
+    border-radius: 17px;
+      border: 1px solid rgba(0, 0, 0, .05);
+      color: #9f9f9f;
+      padding: 1rem;
+      margin: 2rem;
+      padding-left:4% ;
+      padding-right: 4%; 
+      font-size: 21px;
+      width: 50%;
+      
+}
+.skill{
+    display: flex;
+    gap: 20px;
+   line-height: 2;
+}
+.skill h2{
+    font-size: 25px;
+    color: aliceblue;
+}
+ .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;  /* Width of the container */
+    height: 60px; /* Height of the container */
+    background-color: #f0f0f0; /* Optional: background for visibility */
+    border-radius: 10px;
+ 
+  
+} 
+.image i{
+    font-size: 30px;  /* Increase the icon size */
+  color: hsl(17, 79%, 47%);  /* Optional: change icon color */
+}
+
+
+.icon{
+    display: flex;
+    gap: 2%;
+    padding: 2%;
+    
+}
+hr{
+    border-color: #9f9f9f;
+    
+}
+
+
+
+ 
+
+
+

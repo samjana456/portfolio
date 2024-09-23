@@ -1,0 +1,129 @@
+.touch {
+    background-color: #121214;
+    border-radius: 17px;
+    border: 1px solid rgba(0, 0, 0, .05);
+    color: #9f9f9f;
+    padding: 1rem;
+    /* margin: 2rem; */
+    padding-left: 4%;
+    margin-bottom: 30px;
+    padding-right: 4%;
+    font-size: 21px;
+    line-height: 50px;
+
+}
+
+.contacts {
+    background-color: #121214;
+    border-radius: 17px;
+    border: 1px solid #363535;
+    color: #9f9f9f;
+    padding: 1rem;
+    /* margin: 2rem; */
+    padding-left: 4%;
+    margin-bottom: 30px;
+    padding-right: 4%;
+    font-size: 21px;
+    line-height: 50px;
+    width: 75%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.form {
+
+    /* background-color: red; */
+    border: 1px solid #302e2e;
+    border-radius: 10px;
+    /* padding: 10px; */
+    width: 25%;
+    height: 555px;
+    padding-left: 20px;
+
+}
+
+.second {
+    display: flex;
+    gap: 50px;
+}
+
+.contact i {
+    color: orangered;
+
+}
+
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+}
+h2{
+    color: #d3d3d3;
+}
+
+.form-row{
+    display: flex;
+    gap: 50px;
+
+}
+
+.form-row .form-group {
+  
+    margin-right: 15px;
+    /* Spacing between the two fields */
+}
+
+input[type="text"],
+input[type="email"]
+ {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    height: 40px;
+}
+textarea{
+    width: 97%;
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    height: 40px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #d3d3d3;
+    /* Lighter label color to match the form */
+}
+
+textarea {
+    height: 150px;
+    
+}
+.form-group{
+    margin-bottom: 50px;
+}
+.send button{
+    width: 200px;
+    border-radius: 8px;
+    background-color: rgb(224, 81, 28);
+    height: 50px;
+    color: aliceblue ;
+    font-size: 15px;
+}
+.send button:hover{
+    cursor: pointer;
+    background-color: #302e2e;
+}
+label:hover{
+    cursor: pointer;
+}

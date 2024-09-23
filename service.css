@@ -1,0 +1,143 @@
+.pricing{
+    background-color:#121214;
+    border-radius: 17px;
+     
+      color: #9f9f9f;
+      padding: 1rem;
+      margin: 2rem;
+      padding-left:4% ;
+      padding-right: 4%; 
+      font-size: 21px;
+     
+   
+}
+.boxes{
+    display: flex;
+    
+}
+.heading{
+ text-align: center;
+}
+
+.box{
+    background-color:#121214;
+    border-radius: 17px;
+      border: 1px solid #353333;
+      color: #9f9f9f;
+      /* border-color: #9f9f9f; */
+      padding: 1rem;
+      margin: 2rem;
+      /* padding-left:4% ; */
+      padding-right: 4%; 
+      font-size: 21px;
+    display: flexbox;
+    flex-direction: column;
+    line-height: 35px;
+      
+}
+.basic{
+    background-color:#121214;
+    border-radius: 17px;
+      border: 1px solid  #2e2b2b;
+      color: #9f9f9f;
+      /* padding: 1rem; */
+      /* margin: 2rem; */
+      padding-left:4% ;
+      padding-right: 4%; 
+      font-size: 21px;  
+      height: 150px;
+      width: 300px;
+      padding-bottom: 20px;
+}
+.list ul{
+  padding-top: 20px;
+  list-style-type: none;
+}
+.basic b{
+  color: hsl(17, 79%, 47%);
+  font-size: 40px;
+}
+.basic h3{
+  color: aliceblue;
+  
+}
+.button{
+  background-color: hsl(17, 79%, 47%); 
+  border-radius: 10px;
+ color: aliceblue;
+ font-size: 20px;
+ height: 50px;
+ width: 120px;
+padding-left: 10px;
+border: 1px solid  hsl(17, 79%, 47%);
+}
+.button:hover{
+  cursor: pointer;
+  background-color: #121214;
+  border-color: #2b2929;
+  transition-duration: 1s;
+  
+}
+.services{
+  background-color:#121214;
+    border-radius: 17px;
+     
+      color: #9f9f9f;
+    
+      padding: 1rem;
+      margin: 2rem;
+      padding-left:4% ;
+      padding-right: 4%; 
+  
+   
+      
+}
+.heading{
+  padding-bottom: 15px;
+}
+.brand{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.design{
+  padding-top: 40px ;
+  background-color:#121214;
+  border-radius: 17px;
+    border: 1px solid  #2e2b2b;
+    color: #9f9f9f;
+    /* padding: 1rem; */
+    /* margin: 2rem; */
+    padding-left:4% ;
+    padding-right: 4%; 
+    font-size: 21px;  
+    height: fit-content;
+    width: 300px;
+    padding-bottom: 20px;
+    /* margin: 30px; */
+}
+.design:hover{
+  cursor: pointer;
+  border-color: hsl(17, 79%, 47%);
+  transition-duration: 1s;
+}
+.description{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.draw{
+  font-size: 50px;
+}
+.brand{
+  line-height: 30px;
+}
+.services h1{
+  font-size: 40px;
+  color: aliceblue;
+}
+.brand h2{
+  color: aliceblue;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}

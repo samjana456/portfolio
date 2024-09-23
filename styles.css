@@ -36,6 +36,27 @@ nav{
     justify-content: space-between;
     
 }
+.navlinks ul li :first-child:hover{
+    color: #eb5d3a;
+}
+.navlinks ul li :second-child:hover{
+    color: #eb5d3a;
+}
+.navlinks ul li :third-child:hover{
+    color: #eb5d3a;
+}
+.navlinks ul li :fourth-child:hover{
+    color: #eb5d3a;
+}
+.navlinks ul li :last-child:hover{
+    color: #eb5d3a;
+}
+.navlinks ul li a{
+   text-decoration: none;
+}
+
+
+
 .hire button{
     /* background-color: blue; */
     padding: 0.5rem 1rem;
@@ -50,6 +71,7 @@ nav{
 .hire button:hover{
     background-color: lightcoral;
     cursor: pointer;
+   
 }
 
 .box{
@@ -104,13 +126,13 @@ nav{
     padding-top: 0.5rem;
     border-radius: 10px;
 }
-.links ul li a{
+/* .links ul li a{
    
   color: rgb(150, 142, 142)
 }
 .links ul li a:hover{
     color: red;
-}
+} */
 
 
 
@@ -190,6 +212,8 @@ font-size: 1rem;
     background-color: #121214;
     border-radius: 2rem;
     margin-bottom: 2rem;
+    line-height: 40px;
+    
 
     
 }
@@ -300,3 +324,4 @@ footer{
     background-color: #121214;
     cursor: pointer;
 }
+
